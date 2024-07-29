@@ -10,16 +10,12 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url("image/background.jpg") no-repeat;
+    background: url("image/background.jpg");
     background-size: cover;
     background-position: center;
-    animation: ani 5s linear infinite;
+    overflow: hidden;
 }
-@keyframes ani{
-    100%{
-        filter: hue-rotate(360deg);
-    }
-}
+
 
 .container{
     position: relative;
