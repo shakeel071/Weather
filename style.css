@@ -228,7 +228,11 @@ body{
     }
     .weather-details .humidity .info-humidity,
 .weather-details .wind .info-wind{
-    transform: translateY(-106%);
+    transform: translateY(-107%);
     overflow: hidden;
+}
+.active-clone#clone-info-humidity span,
+.active-clone#clone-info-wind span{
+    transform: translateY(-2%);
 }
 }
