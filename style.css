@@ -130,7 +130,7 @@ body{
     bottom: 40px;
     left: 0;
     width: 100%;
-    padding: 0 20px;
+    padding: 0* 20px;
     display: flex;
 }
 .weather-details .humidity,
@@ -148,7 +148,7 @@ body{
 }
 .weather-details .humidity .info-humidity,
 .weather-details .wind .info-wind{
-    transform: translateY(-100%);
+    transform: translateY(-104%);
     overflow: hidden;
 }
 .weather-details .humidity{
@@ -216,7 +216,7 @@ body{
 }
 .active-clone#clone-info-humidity span,
 .active-clone#clone-info-wind span{
-    transform: translateY(0%);
+    transform: translateY(-1%);
 }
 
 @media (max-width:600px){
