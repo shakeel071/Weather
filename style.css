@@ -226,4 +226,9 @@ body{
         height: 100px;
        
     }
+    .weather-details .humidity .info-humidity,
+.weather-details .wind .info-wind{
+    transform: translateY(-106%);
+    overflow: hidden;
+}
 }
